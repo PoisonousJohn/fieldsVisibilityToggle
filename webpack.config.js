@@ -13,7 +13,7 @@ module.exports = (function (options) {
         output: {
             path: __dirname + "/dist",
             filename: "lib.js",
-            library: "lib"
+            library: "FieldsVisibility"
         },
 
         devtool: 'source-map',

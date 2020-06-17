@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PoisonousJohn/typeScriptLibTemplate.git"
+    "url": "git+https://github.com/PoisonousJohn/fieldsVisibilityToggle.git"
   },
   "keywords": [
     "typescript",
@@ -23,6 +23,9 @@
   "devDependencies": {
     "@types/chai": "^3.4.35",
     "@types/mocha": "^2.2.40",
+    "@types/jquery": "^3.3.38",
+    "eslint": "^7.1.0",
+    "babel-eslint": "^10.1.0",
     "awesome-typescript-loader": "^3.1.2",
     "chai": "^3.5.0",
     "karma": "^1.5.0",
@@ -40,5 +43,7 @@
     "webpack-cli": ">=3.3.11",
     "webpack-dev-server": ">=3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
